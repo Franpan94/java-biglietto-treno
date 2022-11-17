@@ -15,7 +15,7 @@ public static void main(String[] args) {
 		double price = km * 0.21;
 		double decimalPrice  = Math.round(price*100.0)/100.0;
 		double minDiscount = price * 0.2;
-		double overDiscount = price * 0.65;
+		double overDiscount = price * 0.4;
 		
 		if(age < 12) {
 			System.out.print("Per i minori di 12 anni, il viaggio è completamente gratuito :-)");
